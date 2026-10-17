@@ -7,7 +7,7 @@ This repo includes the SQLite database file ev_data.db so the app can run after 
 
 ## Project layout
 - MainApp.py — entry point
-- ev_data.db — included SQLite database
+- ev_data.db — included SQLite database (expected in project root)
 - data/ — supporting files (if present)
 
 ## Clone-and-run (quick start)
@@ -18,4 +18,5 @@ This repo includes the SQLite database file ev_data.db so the app can run after 
    python -m streamlit run MainApp.py
 
 ## Notes
-- The app expects ev_data.db to be in the project root directory.
+- **ev_data.db must be present in the project root directory** (CWD when you run Streamlit).  
+  If it’s missing, the app will fail to load the database.
