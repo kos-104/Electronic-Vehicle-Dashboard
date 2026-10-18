@@ -134,17 +134,31 @@ ev-sales-dashboard/ ├── MainApp.py # Entry point, tab routing ├── ta
 
 ## Run Locally
 
-### 1) Clone the repository
+### 1) Clone (or download) the repo
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>.git
+cd <YOUR_REPO_NAME>
 
-### 2) Install dependencies
+### 2) Install Python dependencies
+pip install -r requirements.txt
 
-### 3) Build the SQLite database (one-time / after data changes)
-The app uses `ev_data.db`, which is created from the CSV files in `data/`:
+### 3) Build the SQLite database (one-time, or after updating CSVs)
+This project uses `ev_data.db` as its data source. If `ev_data.db` isn’t present (or you changed the CSVs), generate it from the CSVs in the `data/` folder:
+python build_database.py
+
+Expected inputs:
+- `data/ev_vehicles.csv`
+- `data/ev_sales.csv`
+
+Expected output:
+- `ev_data.db`
 
 ### 4) Start the Streamlit app
+streamlit run MainApp.py
 
+Open the local URL shown in your terminal (commonly `http://localhost:8501`).
+If you want a specific port (example 8502):
+streamlit run MainApp.py --server.port 8502
 
-Open the local URL shown in your terminal (typically `http://localhost:8501`).
 
 ## What I'd Do Differently
 - Validate cross-table key integrity immediately after loading raw data,
