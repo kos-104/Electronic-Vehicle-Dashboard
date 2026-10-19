@@ -10,11 +10,12 @@ background primarily in VBA.**
 ![pandas](https://img.shields.io/badge/Library-pandas-150458.svg)
 ![Architecture](https://img.shields.io/badge/Architecture-Modular-orange.svg)
 
-> **Credit / Origins:** This dashboard extends and reorganizes an earlier,
-> simpler Streamlit dashboard pattern created by **Paul Kelly**. Paul’s work
-> provided the starting structure; I built this EV-focused implementation and
-> expansion on top of it—covering the tab design, data workflow, UI
-> interactions, and the JOIN-scope handling described below.
+> **Credit / Origins:** This dashboard extends and reconfigures an earlier,
+> simpler Streamlit dashboard pattern created by **Paul Kelly**. Kelly’s work
+> provided the starting structure; I used this as a foundation and then
+> repurposed and expanded it with a EV-focused implementation — covering the
+> tab design, data workflow, UI interactions, and the JOIN-scope handling
+> described below.
 >
 > **AI transparency:** I used AI as a coding assistant and study support while
 > implementing and debugging specific sections, but the overall design/feature
@@ -28,7 +29,7 @@ background primarily in VBA.**
 
 Built with an emphasis on clean, modular, explainable code rather than
 technique chosen to look impressive. Every pattern used here is one I can
-justify and walk through, not just one that happens to work.
+justify and rationalize, not just one that happens to work.
 
 ## The Data Problem
 
@@ -73,13 +74,13 @@ pipeline/dashboard skills; not intended as real market analysis.)*
 **Structure**
 - Logic split across dedicated files — `filter_helpers.py`,
   `style_filters.py`, one file per tab — rather than a single script
-- Each concern changes independently: a styling tweak can't break a query,
+- Each concern changes independently: a styling tweak won't break a query,
   and vice versa
 
 **Styling**
 - UI styling (slider colors, label weight, spacing) is driven by a single
   `SLIDER_STYLES` dictionary, looped over to generate CSS
-- Replaced an earlier version with three near-duplicate styling functions — the repetition was the signal that a data-driven refactor was overdue, in line with the DRY (Don't Repeat Yourself) principle
+- Replaced an earlier version with three near-duplicate styling functions — the repetition signaled that a data-driven refactor was overdue, in line with the DRY (Don't Repeat Yourself) principle
 **Widget State**
 - All Tab 2 container keys use a consistent `vc_` prefix
 - Prevents Streamlit's `DuplicateWidgetID` errors across tabs and
@@ -87,7 +88,7 @@ pipeline/dashboard skills; not intended as real market analysis.)*
 
 **Scope Restraint**
 - No custom classes — nothing in this project's actual complexity justifies
-  them; functions and dictionaries handle what's needed
+  them; functions and dictionaries handle our needs
 - SQL limited to `SELECT`, `WHERE`, and `JOIN` — all aggregation happens in
   pandas afterward, since this is a first real exposure to SQL and every
   query here is one I fully understand
