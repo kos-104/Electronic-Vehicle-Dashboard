@@ -29,7 +29,7 @@ background primarily in VBA.**
 
 Built with an emphasis on clean, modular, explainable code rather than
 technique chosen to look impressive. Every pattern used here is one I can
-justify and rationalize, not just one that happens to work.
+rationalize and justify, not just one that happens to work.
 
 ## The Data Problem
 
