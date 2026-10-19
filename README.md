@@ -123,8 +123,8 @@ theoretical ones:
 - **DRY isn't just about functions — it applies to config, too.**
   Centralizing repeated style logic into the `SLIDER_STYLES` dictionary
   in `style_filters.py` was a direct application of a principle I'd used
-  in VBA for years, just expressed through a Python dictionary instead of
-  a repeated Sub per control.
+  in VBA for years,  leveraging dictionaries to keep configuration in one
+  place rather than scattering that style logic across multiple routines.
 
 ## Tech Stack
 Python 3 · SQLite (`sqlite3`, standard library) · pandas · Streamlit · Plotly Express
