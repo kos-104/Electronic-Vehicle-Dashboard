@@ -83,6 +83,7 @@ pipeline/dashboard skills; not intended as real market analysis.)*
 - Replaced an earlier version with three near-duplicate styling functions — the
   repetition was the signal that a data-driven refactor was overdue, in line with the DRY
   (Don't Repeat Yourself) principle
+  
 **Widget State**
 - All Tab 2 container keys use a consistent `vc_` prefix
 - Prevents Streamlit's `DuplicateWidgetID` errors across tabs and
