@@ -99,7 +99,7 @@ pipeline/dashboard skills; not intended as real market analysis.)*
 
 To keep the project truthful *and* useful as a dashboard, I avoided “fixing”
 the dataset relationship by fabrication. With just **55 / 5000** sales rows
-having a valid `Vehicle_ID` match, Tab 3 is purposefully implemented as a
+having a valid `Vehicle_ID` match, Tab 3 is intentionally presented as a
 **partial-match JOIN demo**, while Tabs 1 and 2 run independently from their
 respective tables for more meaningful exploration.
 
