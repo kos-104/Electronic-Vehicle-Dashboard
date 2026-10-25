@@ -46,7 +46,7 @@ project's centerpiece.
 
 The join syntax wasn't the problem — I confirmed it against known-good IDs
 first. The two source tables were simply generated independently,
-with no maintained relationship between them.
+with no consistent relationship between them.
 
 **Ruled out:**
 - Forcing a full join by reassigning IDs — falsifies a relationship that isn't real
