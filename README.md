@@ -163,7 +163,7 @@ Open the local URL shown in your terminal (typically `http://localhost:8501`).
 
 ## Data Source
 - **Kaggle:** Global Electric Vehicle Ecosystem Dataset — synthetic/simulated EV data, used to
-  demonstrate the data pipeline and dashboard construction, not real-world market analysis.
+  demonstrate the data pipeline and dashboard construction, not perfect real-world market analysis.
 - **Dataset Files:**
   - **Sales / Ecosystem metrics** (used for EV sales trends and comparisons)
   - **Vehicle Specifications** (e.g., make/model, attributes, and related fields)
