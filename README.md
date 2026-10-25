@@ -11,7 +11,8 @@ background primarily in VBA.**
 ![Architecture](https://img.shields.io/badge/Architecture-Modular-orange.svg)
 
 > **Credit / Origins:** This dashboard extends and remodels an earlier,
-> simpler Streamlit dashboard pattern created by **Paul Kelly**. Paul’s work
+> simpler Streamlit dashboard pattern created by **Paul Kelly** (based on
+> https://www.youtube.com/watch?v=nB7Nc3HPiMc). Paul’s work
 > provided the starting blueprint. I rebuilt and expanded it with an
 > EV-focused structure—covering the tab design, data
 > workflow, UI interactions, and the JOIN-scope handling described below.
