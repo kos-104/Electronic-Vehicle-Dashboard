@@ -1,4 +1,4 @@
-# EV Sales & Vehicle Specification Dashboard
+# Electronic Vehicle Sales & Vehicle Specification Dashboard
 
 **A three-tab Streamlit dashboard for exploring EV sales trends and vehicle
 specifications, built as a first Python portfolio project after a
