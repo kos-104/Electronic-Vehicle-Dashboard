@@ -127,7 +127,7 @@ theoretical ones:
   Centralizing repeated style logic into the `SLIDER_STYLES` dictionary
   in `style_filters.py` was a direct application of a principle I often used
   in VBA: leveraging dictionaries to keep configuration in one place
-  versus scattering that style logic across multiple routines.
+  instead of scattering that style logic across multiple routines.
 
 ## Tech Stack
 Python 3 · SQLite (`sqlite3`, standard library) · pandas · Streamlit · Plotly Express
