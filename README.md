@@ -106,7 +106,7 @@ respective tables for more meaningful exploration.
 
 ## Data Pipeline (How the App Gets Its Data)
 
-- CSVs are ingested into SQLite once (see `build_database.py`)
+- CSVs are fed into SQLite once (see `build_database.py`)
 - Streamlit reads/query-sources from SQLite (with straightforward `SELECT` / `WHERE` / `JOIN`)
 - pandas performs filtering, reshaping, and all aggregation for chart-ready outputs
 
