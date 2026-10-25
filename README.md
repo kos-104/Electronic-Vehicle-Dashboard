@@ -45,8 +45,8 @@ project's centerpiece.
 | Match rate | ~1.1% |
 
 The join syntax wasn't the problem — I confirmed it against known-good IDs
-first. The two source tables were simply generated from independent datasets,
-without a consistently maintained relationship between them.
+first. The two source tables were simply generated independently,
+with no maintained relationship between them.
 
 **Ruled out:**
 - Forcing a full join by reassigning IDs — falsifies a relationship that isn't real
