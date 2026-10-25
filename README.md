@@ -17,7 +17,7 @@ background primarily in VBA.**
 > workflow, UI interactions, and the JOIN-scope handling described below.
 >
 > **AI transparency:** I utilized AI as a coding and study assistant while
-> implementing and debugging specific sections, but the overall design/feature
+> preparing and debugging specific sections, but the overall design/feature
 > decisions and correctness validation are my own.
 
 ## Overview
