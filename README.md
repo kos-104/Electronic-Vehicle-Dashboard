@@ -162,9 +162,12 @@ Open the local URL shown in your terminal (typically `http://localhost:8501`).
   forced a mid-project scope change
 
 ## Data Source
-Kaggle: *[dataset name/link]* — synthetic/simulated EV data, used to
-demonstrate pipeline and dashboard construction, not real-world market
-analysis.
+- **Kaggle:** Global Electric Vehicle Ecosystem Dataset — synthetic/simulated EV data, used to
+  demonstrate the data pipeline and dashboard construction, not real-world market analysis.
+- **Dataset Files:**
+  - **Sales / Ecosystem metrics** (used for EV sales trends and comparisons)
+  - **Vehicle Specifications** (e.g., make/model, attributes, and related fields)
+- **Link:** https://www.kaggle.com/code/kuldeepjangra/global-electric-vehicle-ecosystem-dataset#Dataset-Files
 
 ## Author
 [Your Name] — background in VBA/Excel, building toward Python, SQL, and
