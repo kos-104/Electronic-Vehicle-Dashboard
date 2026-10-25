@@ -186,5 +186,5 @@ underlying logic itself.
 
 Principles like avoiding repeated code, grouping related logic together,
 and separating data from the processes that act on it — are not new concepts,
-however. They are ones I've already employed in VBA; here in Python, they're
+however. They're ones I have already employed in VBA; here in Python, they're
 just expressed in a language with superior architecture to manage them.
