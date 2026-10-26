@@ -59,7 +59,7 @@ with no consistent relationship between them.
 - `Sales Analysis` and `Vehicle Catalog` each run independently off their
   own table, unaffected by the join issue
 - `Matched Vehicle Sales` isolates the genuine ~1% overlap and labels it
-  as exactly that — a partial-match demo, not a claim of an absolute relational
+  as exactly that — a partial-match demo, not a claim of an truly relational
   dataset
 
 This is declared outright rather than left for someone to discover by
@@ -177,11 +177,10 @@ data tooling through hands-on portfolio projects.
 
 Coming from VBA turned out to be a better foundation than expected.
 The Object Oriented Programming (OOP) abilities of VBA make it far more capable 
-than its reputation as a mere scripting language might suggest. And honestly, 
-its kind of fun to work with. Class modules promote encapsulation and can 
-be deployed as interfaces which then give VBA real polymorphism. Though it does lack native 
-inheritance, VBA supports composition and factory patterns that replicate this technique 
-convincingly.
+than its reputation as a mere scripting language might suggest. Class modules in VBA promote 
+encapsulation and can be used as interfaces to grant the language real polymorphism. 
+Though VBA lacks native inheritance, it does support composition and factory patterns 
+that mimic this technique convincingly.
 
 What's genuinely new to me in Python is the syntax and ecosystem — real package
 management, and libraries like pandas and Streamlit — rather than the
