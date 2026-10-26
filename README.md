@@ -66,7 +66,7 @@ This is declared outright rather than left for someone to discover by
 reading the code. A limitation stated upfront is more credible than one
 found later.
 
-*(Also disclosed: the dataset is synthetic — sequential IDs,
+*(Also disclosed: the dataset is **synthetic** — sequential IDs,
 generated-looking distributions, production years extending into the near
 future — rather than real-world scraped data. Suitable for demonstrating
 pipeline/dashboard skills; not intended as real market analysis.)*
