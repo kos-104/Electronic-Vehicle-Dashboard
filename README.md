@@ -142,18 +142,18 @@ Copy code
 
 ## Run Locally
 
-1) Clone the repository  
+**1) Clone the repository**  
     git clone https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>.git  
     cd <YOUR_REPO_NAME>
 
-2) Install dependencies  
+**2) Install dependencies**  
     pip install -r requirements.txt
 
-3) Build the SQLite database (one-time / after data changes)  
+**3) Build the SQLite database (one-time / after data changes)**  
 The app uses `ev_data.db`, which is created from the CSV files in `data/`:  
     python build_database.py
 
-4) Start the Streamlit app  
+**4) Start the Streamlit app**  
     streamlit run MainApp.py
 
 Open the local URL shown in your terminal (typically `http://localhost:8501`).
