@@ -83,7 +83,7 @@ pipeline/dashboard skills; not intended as real market analysis.)*
 - UI styling (slider colors, label weight, spacing) is driven by a single
   `SLIDER_STYLES` dictionary, looped over to generate CSS
 - Replaced an earlier version with three near-duplicate styling functions — the
-  repetition was the signal that a data-driven refactor was overdue, in line with the DRY
+  repetition was the alert that a data-driven refactor was overdue, in line with the DRY
   (Don't Repeat Yourself) principle
   
 **Widget State**
