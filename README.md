@@ -1,7 +1,7 @@
 # Electronic Vehicle Sales & Specifications Dashboard
 
 **A three-tab Streamlit dashboard for exploring EV sales trends and vehicle
-specifications, built as a first Python portfolio project after a
+specifications, built as a first-time Python portfolio project after a
 background primarily in VBA.**
 
 ![Python](https://img.shields.io/badge/Language-Python-blue.svg)
