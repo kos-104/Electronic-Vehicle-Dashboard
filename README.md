@@ -142,21 +142,22 @@ Copy code
 
 ## Run Locally
 
-**1) Clone the repository**  
-    git clone https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>.git  
-    cd <YOUR_REPO_NAME>
+   **1) Clone the repository**
+   <pre>git clone https://github.com/&lt;YOUR_GITHUB_USERNAME&gt;/&lt;YOUR_REPO_NAME&gt;.git
+   cd &lt;YOUR_REPO_NAME&gt;</pre>
 
-**2) Install dependencies**  
-    pip install -r requirements.txt
+   **2) Install dependencies**
+   <pre>pip install -r requirements.txt</pre>
 
-**3) Build the SQLite database (one-time / after data changes)**  
-The app uses `ev_data.db`, which is created from the CSV files in `data/`:  
-    python build_database.py
+   **3) Build the SQLite database (one-time / after data changes)**
+   The app uses `ev_data.db`, which is created from the CSV files in `data/`:
+   <pre>python build_database.py</pre>
 
-**4) Start the Streamlit app**  
-    streamlit run MainApp.py
+   **4) Start the Streamlit app**
+   <pre>streamlit run MainApp.py</pre>
 
-Open the local URL shown in your terminal (typically `http://localhost:8501`).
+   Open the local URL shown in your terminal (typically http://localhost:8501).
+
 ## What I'd Do Differently
 - Validate cross-table key integrity right after loading raw data,
   before designing any structure around an assumed relationship
