@@ -180,7 +180,7 @@ The Object Oriented Programming (OOP) abilities of VBA make it far more capable
 than its reputation as a mere scripting language might suggest, and honestly, 
 kind of fun to work with. Class modules and interfaces give VBA real polymorphism,
 and while it has no native inheritance, composition and factory patterns
-replicate it convincingly.
+can replicate this convincingly.
 
 What's genuinely new to me in Python is the syntax and ecosystem — real package
 management, and libraries like pandas and Streamlit — rather than the
