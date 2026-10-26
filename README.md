@@ -11,11 +11,12 @@ background primarily in VBA.**
 ![Architecture](https://img.shields.io/badge/Architecture-Modular-orange.svg)
 
 > **Credit / Origins:** This dashboard extends and remodels an earlier,
-> simpler Streamlit dashboard pattern created by **Paul Kelly** (based on
-> https://www.youtube.com/watch?v=nB7Nc3HPiMc). Paul’s work
-> provided the starting blueprint. I rebuilt and expanded it with an
-> EV-focused structure—covering the tab design, data
-> workflow, UI interactions, and the JOIN-scope handling described below.
+> lighter Streamlit dashboard pattern created by **Paul Kelly** (of the
+> **Excel Macro Mastery** website), based on
+> https://www.youtube.com/watch?v=nB7Nc3HPiMc. Paul’s work provided the
+> starting blueprint. I rebuilt and expanded it with an EV-focused
+> structure—covering the tab design, data workflow, UI interactions, and
+> the JOIN-scope handling described below.
 >
 > **AI transparency:** I utilized AI as a coding and study assistant while
 > preparing and debugging specific sections, but the overall design/feature
