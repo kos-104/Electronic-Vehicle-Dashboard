@@ -14,7 +14,7 @@ background primarily in VBA.**
 > lighter Streamlit dashboard pattern created by **Paul Kelly** (of the
 > **Excel Macro Mastery** website), based on
 > https://www.youtube.com/watch?v=nB7Nc3HPiMc. Paul’s work provided the
-> starting blueprint. I rebuilt and expanded it with an EV-focused
+> starting platform. I rebuilt and expanded it with an EV-focused
 > structure—covering the tab design, data workflow, UI interactions, and
 > the JOIN-scope handling described below.
 >
