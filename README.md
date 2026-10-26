@@ -179,7 +179,7 @@ data tooling through hands-on portfolio projects.
 Coming from VBA turned out to be a better foundation than expected.
 The Object Oriented Programming (OOP) abilities of VBA make it far more capable 
 than its reputation as a mere scripting language might suggest. Class modules in VBA promote 
-encapsulation and can be used as interfaces to grant the language real polymorphism. 
+encapsulation and can be also used as interfaces to grant the language real polymorphism. 
 Though VBA lacks native inheritance, it does support composition and factory patterns 
 that mimic this technique convincingly.
 
