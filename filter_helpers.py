@@ -1,13 +1,14 @@
 import streamlit as st
+import pandas as pd
 
 def render_multiselect_filter(df, column, label, container_key):
-    # ---------------------------------------------------------
-    # “Select All” + multiselect filter with session state sync.
+    # -----------------------------------------------------------------------
+    # “Select All” + multiselect filter with session state sync
     #
     # Goal:
-    #  - checkbox controls whether the multiselect shows all options vs none
-    #  - multiselect changes update the checkbox when user manually deselects
-    # ---------------------------------------------------------    
+    #  - Checkbox controls whether the multiselect shows all options vs none
+    #  - Multiselect changes update the checkbox when user manually deselects
+    # ------------------------------------------------------------------------    
     options = sorted(df[column].unique())
 
     multiselect_key = f"{container_key}_multiselect"
@@ -32,10 +33,10 @@ def render_multiselect_filter(df, column, label, container_key):
             current = st.session_state[multiselect_key]
             st.session_state[checkbox_key] = (set(current) == set(options))
 
-        # Derive checkbox value BEFORE rendering it, based on current multiselect state
+        # Establish checkbox value BEFORE rendering it, based on current multiselect state
         st.session_state[checkbox_key] = (set(st.session_state[multiselect_key]) == set(options))
 
-        # Checkbox: “Select All ...”
+        # Checkbox for “Select All ...”
         st.checkbox(
             f"Select All {label}",
             key=checkbox_key,
@@ -75,16 +76,16 @@ def build_year_grouped_chart_df(
       - includes: group_col if provided (so px.line can color by it)
     """
             
-    # ---------------------------------------------------------
+    # ----------------------------------------------------------------
     # Choose the aggregation method + column based on metric selection
-    # ---------------------------------------------------------
+    # ----------------------------------------------------------------
     cfg = get_metric_aggregation_config(metric_choice)    
     
-    # ---------------------------------------------------------
+    # -----------------------------------------------------------
     # Aggregate either by:
     #  - Year
     #  - or (Year + group_col) when grouping/coloring is enabled
-    # ---------------------------------------------------------
+    # -----------------------------------------------------------
     if cfg["agg_func"] == "sum":
         if group_col is None:
             out = df.groupby([year_col], as_index=False)[cfg["value_column"]].sum()
@@ -101,6 +102,6 @@ def build_year_grouped_chart_df(
             out = df.groupby([year_col, group_col], as_index=False).size()
             out = out.rename(columns={"size": "Value"})
 
-    # Standardize output schema expected by the chart helper
+    # Standardize output scheme expected by the chart helper
     out = out.rename(columns={year_col: "Year"})
     return out
