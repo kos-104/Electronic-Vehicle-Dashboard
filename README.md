@@ -10,10 +10,10 @@ background primarily in VBA.**
 ![pandas](https://img.shields.io/badge/Library-pandas-150458.svg)
 ![Architecture](https://img.shields.io/badge/Architecture-Modular-orange.svg)
 
-> **Credit / Origins:** This dashboard extends and remodels an earlier,
+> **Credit / Origins:** This dashboard extends and remodels a
 > lighter Streamlit dashboard pattern created by **Paul Kelly** (of the
 > **Excel Macro Mastery** website), based on
-> https://www.youtube.com/watch?v=nB7Nc3HPiMc. Paul’s work provided the
+> https://www.youtube.com/watch?v=nB7Nc3HPiMc. Paul’s work provided the robust
 > starting platform. I rebuilt and expanded it with an EV-focused
 > structure—covering the tab design, data workflow, UI interactions, and
 > the JOIN-scope handling described below.
