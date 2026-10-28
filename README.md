@@ -127,7 +127,7 @@ theoretical ones:
   joined data *and be upfront about its scope*."
 - **DRY isn't just about functions — it applies to config, too.**
   Centralizing repeated style logic into the `SLIDER_STYLES` dictionary
-  in `style_filters.py` was a direct application of a principle I often used
+  in `style_filters.py` was a direct application of a principle I often practiced
   in VBA: leveraging dictionaries to keep configuration in one place
   instead of scattering that style logic across multiple routines.
 
