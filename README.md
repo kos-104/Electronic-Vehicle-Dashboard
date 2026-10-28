@@ -10,7 +10,7 @@ background primarily in VBA.**
 ![pandas](https://img.shields.io/badge/Library-pandas-150458.svg)
 ![Architecture](https://img.shields.io/badge/Architecture-Modular-orange.svg)
 
-> **Credit / Origins:** This dashboard extends and remodels a
+> **Credit / Origins:** This dashboard remodels and extends a
 > lighter Streamlit dashboard pattern created by **Paul Kelly** (of the
 > **Excel Macro Mastery** website), based on
 > https://www.youtube.com/watch?v=nB7Nc3HPiMc. Paul’s work provided the robust
