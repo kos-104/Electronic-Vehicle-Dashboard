@@ -181,7 +181,7 @@ The Object Oriented Programming (OOP) abilities of VBA make it far more capable
 than its reputation as a mere scripting language might suggest. Class modules in VBA promote 
 encapsulation and can be run as interfaces to grant the language real polymorphism. 
 Though VBA lacks native inheritance, it does enable composition and factory patterns 
-that can mimic this technique convincingly.
+that can mimic this attribute convincingly.
 
 What's genuinely new to me in Python is the syntax and ecosystem — real package
 management, and libraries like pandas and Streamlit — rather than the
