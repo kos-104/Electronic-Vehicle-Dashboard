@@ -173,7 +173,7 @@ Copy code
 - **Link:** https://www.kaggle.com/code/kuldeepjangra/global-electric-vehicle-ecosystem-dataset#Dataset-Files
 
 ## Author
-**Oliver Spellman:** background in VBA/Excel; building toward Python, SQL, and
+**Oliver S.:** background in VBA/Excel; building toward Python, SQL, and
 data tooling through hands-on portfolio projects.
 
 Coming from VBA turned out to be a better foundation than expected.
